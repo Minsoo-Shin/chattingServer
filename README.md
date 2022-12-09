@@ -6,7 +6,7 @@
 2. server에서는 받은 메세지를 'server got :'을 덧씌워서 client에게 다시 보내준다. 
 
 ## simple chat service
-. 방에 들어가기 (join)
-. 닉네임 설정하기 (nickname)
-. 방에서 모든 사람에게 채팅하기 (msg)
-. 방에서 나가기 (quit)
+1. 방에 들어가기 (join)
+2. 닉네임 설정하기 (nickname)
+3. 방에서 모든 사람에게 채팅하기 (msg)
+4. 방에서 나가기 (quit)
