@@ -5,10 +5,11 @@
 1. client가 주기적으로 서버로 'hey server'라는 message를 날린다. 
 2. server에서는 받은 메세지를 'server got :'을 덧씌워서 client에게 다시 보내준다. 
 
-## simple chat service (https://www.notion.so/godoksajang/99f8b1bd02ad4503af35c893416f7335)
+## simple chat service 
 1. 방에 들어가기 (join)
 2. 닉네임 설정하기 (nickname)
-3. 방에서 모든 사람에게 채팅하기 (msg)
-4. 방에서 나가기 (quit)
-
+3. 가능한 방 가져오기 (rooms)
+4. 방에서 모든 사람에게 채팅하기 (send)
+5. 방에서 나가기 (quit)
+notion link: (https://www.notion.so/godoksajang/99f8b1bd02ad4503af35c893416f7335)
 ![Screen-Recording-2022-12-11-at-3 02 51-PM (1)](https://user-images.githubusercontent.com/64356885/206889960-5a3e936e-04b0-4b30-98ac-089793cb883e.gif)
