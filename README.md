@@ -10,3 +10,5 @@
 2. 닉네임 설정하기 (nickname)
 3. 방에서 모든 사람에게 채팅하기 (msg)
 4. 방에서 나가기 (quit)
+
+![Screen-Recording-2022-12-11-at-3 02 51-PM (1)](https://user-images.githubusercontent.com/64356885/206889960-5a3e936e-04b0-4b30-98ac-089793cb883e.gif)
