@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"log"
 	"net"
 	"strings"
 )
@@ -18,7 +19,7 @@ func (c *client) readInput() {
 	for {
 		msg, err := bufio.NewReader(c.connection).ReadString('\n')
 		if err != nil {
-			fmt.Println(err)
+			log.Printf("failed to read:  %v\n", err.Error())
 			return
 		}
 		msg = strings.Trim(msg, "\r\n")
